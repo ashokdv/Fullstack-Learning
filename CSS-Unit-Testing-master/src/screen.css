@@ -1,0 +1,48 @@
+#top,
+#bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50%;
+}
+
+#top {
+    top: 0;
+    /* background-color: orange; */
+}
+
+#bottom {
+    bottom: 0;
+    /* background-color: green; */
+}
+
+#left,#right {
+  width: 50%;
+  height:50%;
+  position: fixed; 
+}
+
+#left{
+  left: 0;
+  background-color: white;
+}
+#right{
+  right: 0;
+  /* background-color: pink; */
+}
+
+
+#left-bottom,#right-bottom {
+  width: 50%;
+  height:50%;
+  position: fixed; 
+}
+
+#left-bottom{
+  left: 0;
+  /* background-color: orange; */
+}
+#right-bottom{
+  right: 0;
+  background-color: white;
+}
